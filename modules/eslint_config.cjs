@@ -1,8 +1,8 @@
 // Import the styleguide module using ES Module syntax
-import styleguide from './styleguide.js'
+const styleguide = require( './styleguide.cjs' )
 
 // Export the configuration object using `export default`
-export default {
+module.exports = {
 
     // Recommended features
     "extends": [ "eslint:recommended", "plugin:react/recommended" ],

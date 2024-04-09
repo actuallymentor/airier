@@ -1,4 +1,4 @@
-const { eslint_config } = require( 'airier' )
+const { eslint_config } = require( './index.cjs' )
 
 // Export the default eslint config
 module.exports = {

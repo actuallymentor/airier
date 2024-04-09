@@ -3,7 +3,7 @@
 // warn: we recomment this to change, but there are instances where you can choose to ignore it
 // error: there is no reason for you to do this
 
-export default {
+module.exports = {
 
     /* ///////////////////////////////
     // Built-in rules
