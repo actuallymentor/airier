@@ -1,6 +1,6 @@
 {
   "name": "airier",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Opinionated Eslint and VSCode style guide",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,6 @@
     "eslint-plugin-unused-imports": "^3.1.0",
     "@babel/eslint-parser": "^7.24.1",
     "@babel/preset-react": "^7.24.1",
-    "airier": "^0.0.3",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
     "husky": "^9.0.11"
