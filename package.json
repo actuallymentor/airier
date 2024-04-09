@@ -1,0 +1,22 @@
+{
+  "name": "airier",
+  "version": "0.0.1",
+  "description": "Opinionated Eslint and VSCode style guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actuallymentor/airier.git"
+  },
+  "author": "Mentor <mentor@palokaj.co> (http://github.com/actuallymentor)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/actuallymentor/airier/issues"
+  },
+  "homepage": "https://github.com/actuallymentor/airier#readme",
+  "devDependencies": {
+    "eslint-plugin-unused-imports": "^3.1.0"
+  }
+}
