@@ -1,8 +1,8 @@
 {
   "name": "airier",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Opinionated Eslint and VSCode style guide",
-  "main": "index.js",
+  "main": "index.cjs",
   "scripts": {
     "lint": "eslint --fix ."
   },
