@@ -1,6 +1,6 @@
 {
   "name": "airier",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Opinionated Eslint and VSCode style guide",
   "main": "index.js",
   "type": "module",
@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/actuallymentor/airier#readme",
   "peerDependencies": {
-    "airier": "^0.0.1",
     "eslint-plugin-unused-imports": "^3.1.0"
   }
 }
