@@ -1,8 +1,9 @@
 {
   "name": "airier",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Opinionated Eslint and VSCode style guide",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +17,8 @@
     "url": "https://github.com/actuallymentor/airier/issues"
   },
   "homepage": "https://github.com/actuallymentor/airier#readme",
-  "devDependencies": {
+  "peerDependencies": {
+    "airier": "^0.0.1",
     "eslint-plugin-unused-imports": "^3.1.0"
   }
 }

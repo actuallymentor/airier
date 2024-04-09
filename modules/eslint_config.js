@@ -1,6 +1,8 @@
-const styleguide = require('./styleguide.js')
+// Import the styleguide module using ES Module syntax
+import styleguide from './styleguide.js'
 
-module.exports = {
+// Export the configuration object using `export default`
+export default {
 
     // Recommended features
     "extends": [ "eslint:recommended", "plugin:react/recommended" ],
@@ -24,15 +26,8 @@ module.exports = {
 
     // Rules
     rules: {
-
         // Import styleguide
-        ...styleguide,
-
-        // React config
-        "react/no-unescaped-entities": 0,
-        "react/react-in-jsx-scope": 0, // CRA globally imports "react" so we don't need to do it
-        "react/prop-types": 0,
-        "react/display-name": 0
+        ...styleguide
     },
 
     // What environment to run in
@@ -52,5 +47,4 @@ module.exports = {
         Cypress: true,
         expect: true
     }
-
 }

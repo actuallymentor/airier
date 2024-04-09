@@ -1,6 +1,6 @@
-const { eslint_config } = require('actuallymentor/airier')
+import { eslint_config } from 'airier'
 
 // Export the default eslint config
-module.exports = {
+export default {
     ...eslint_config
 }

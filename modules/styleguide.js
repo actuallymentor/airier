@@ -3,7 +3,7 @@
 // warn: we recomment this to change, but there are instances where you can choose to ignore it
 // error: there is no reason for you to do this
 
-module.exports = {
+export default {
 
     /* ///////////////////////////////
     // Built-in rules
@@ -83,6 +83,10 @@ module.exports = {
     "react/jsx-indent": "warn",
     "react/jsx-indent-props": "warn",
     "react/jsx-no-useless-fragment": "error",
+    "react/no-unescaped-entities": 0,
+    "react/react-in-jsx-scope": 0, // CRA globally imports "react" so we don't need to do it
+    "react/prop-types": 0,
+    "react/display-name": 0,
 
     /* ///////////////////////////////
     // Plugins
