@@ -22,7 +22,7 @@ curl https://raw.githubusercontent.com/actuallymentor/airier/main/.husky/pre-com
 curl https://raw.githubusercontent.com/actuallymentor/airier/main/.babelrc --output .babelrc
 
 # Add files to git
-git add -f .eslintrc.js .babelrc .vscode/* .husky/*
+git add -f .eslintrc.cjs .babelrc .vscode/* .husky/*
 
 # Make husky executable
 chmod ug+x .husky/*
