@@ -43,4 +43,3 @@ If you are cloning this repo and want to reuse it to create an npm package. Thes
 
 1. You need to do the one-time first publishing manually by running `npm publish --access public` in the root of the project. This will create the package on npmjs and allow you to create a granular token. This requires you to rename `.npmrc` to `.npmrc.bak` temporatily.
 1. You need to obtain a NPM_ACCESS_TOKEN on npmjs (https://www.npmjs.com/settings/YOURUSERNAME/tokens/granular-access-tokens/new). Note that granular tokens expire!
-# airier
