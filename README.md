@@ -6,7 +6,7 @@ A shared set of standards and preferences, enforced through eslint and vscode. P
 
 ```shell
 # Install dependencies
-npm install -D airier @babel/eslint-parser @babel/preset-react eslint eslint-plugin-react eslint-plugin-unused-imports husky
+npm install -D airier husky
 mkdir .vscode .husky || echo "Directories already exist"
 
 # Create scripts
