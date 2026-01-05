@@ -3,7 +3,7 @@
 // warn: we recomment this to change, but there are instances where you can choose to ignore it
 // error: there is no reason for you to do this
 
-module.exports = {
+export default {
 
     /* ///////////////////////////////
     // Built-in rules
@@ -14,9 +14,6 @@ module.exports = {
 
     // Indentation setting
     "indent": [ "warn", 4 ],
-
-    // Allow unnamed exports
-    "import/no-anonymous-default-export": 0,
 
     // Prefer arrow callbacks
     "prefer-arrow-callback": "warn",
@@ -56,7 +53,7 @@ module.exports = {
     // Prefer the use of destructuring
     "prefer-destructuring": "warn",
 
-    // Warn of unused variables, function argumebnts may have documentation value so are ignored
+    // Warn of unused variables, function arguments may have documentation value so are ignored
     "no-unused-vars": [ "warn", { vars: 'all', args: 'none' } ],
 
     // No use of "var"

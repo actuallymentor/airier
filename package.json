@@ -1,8 +1,9 @@
 {
   "name": "airier",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Opinionated Eslint and VSCode style guide",
-  "main": "index.cjs",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
     "lint": "eslint --fix ."
   },
@@ -16,12 +17,35 @@
     "url": "https://github.com/actuallymentor/airier/issues"
   },
   "homepage": "https://github.com/actuallymentor/airier#readme",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "style-guide",
+    "code-style",
+    "javascript",
+    "react",
+    "minimalist",
+    "airy"
+  ],
+  "files": [
+    "index.js",
+    "modules/",
+    ".babelrc",
+    "eslint.config.js",
+    "eslint.config.example.js",
+    "AGENTS.md"
+  ],
   "peerDependencies": {
-    "eslint-plugin-unused-imports": "^3.1.0",
-    "@babel/eslint-parser": "^7.24.1",
+    "@babel/eslint-parser": "^7.28.5",
     "@babel/preset-react": "^7.24.1",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.34.1",
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-unused-imports": "^4.3.0",
+    "globals": "^15.0.0",
     "husky": "^9.0.11"
   }
 }

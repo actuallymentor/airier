@@ -17,11 +17,11 @@ jobs:
     steps:
       # Environment and dependency setup
       - name: Cloning repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@v4
 
       # Set up node and install frontend dependencies
       - name: Set up Node.js (.nvmrc)
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version-file: ".nvmrc"
           cache: "npm"
