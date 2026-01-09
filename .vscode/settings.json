@@ -19,5 +19,6 @@
 		"firebase.json": "fire*,.fire*",
 		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml,.eslint*,config.*,.npm*,.nvm*,.ncu*",
 		"README.md": "*.md,LICENSE",
+		"SPECIFICATION.md": "SPECIFICATION.*.md"
 	}
 }
