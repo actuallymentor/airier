@@ -10,6 +10,16 @@ import styleguide from './styleguide.js'
 
 // Export the flat config as an array
 export default [
+    // Global ignores for build output and dependencies
+    {
+        ignores: [
+            '**/dist/**',
+            '**/build/**',
+            '**/node_modules/**',
+            '**/.next/**',
+            '**/coverage/**'
+        ]
+    },
     // Apply to all JavaScript and JSX files
     {
         files: [ '**/*.js', '**/*.jsx', '**/*.cjs', '**/*.mjs' ],
@@ -19,6 +29,9 @@ export default [
             parserOptions: {
                 ecmaVersion: 2020,
                 requireConfigFile: false,
+                babelOptions: {
+                    presets: [ '@babel/preset-react' ]
+                },
                 ecmaFeatures: {
                     jsx: true
                 }
@@ -38,7 +51,7 @@ export default [
 
         settings: {
             react: {
-                version: 'detect'
+                version: '19'
             }
         },
 

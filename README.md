@@ -18,7 +18,7 @@ npm pkg set scripts.lint="eslint --fix src"
 npx husky init
 
 # Download files (using new ESLint 9 flat config format)
-curl https://raw.githubusercontent.com/actuallymentor/airier/main/eslint.config.js --output eslint.config.js
+curl https://raw.githubusercontent.com/actuallymentor/airier/main/eslint.config.example.js --output eslint.config.js
 curl https://raw.githubusercontent.com/actuallymentor/airier/main/.vscode/settings.json --output .vscode/settings.json
 curl https://raw.githubusercontent.com/actuallymentor/airier/main/.husky/pre-commit --output .husky/pre-commit
 curl https://raw.githubusercontent.com/actuallymentor/airier/main/.babelrc --output .babelrc
