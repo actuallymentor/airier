@@ -1,6 +1,6 @@
 {
   "name": "airier",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Opinionated Eslint and VSCode style guide",
   "type": "module",
   "main": "index.js",

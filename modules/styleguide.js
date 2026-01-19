@@ -45,7 +45,7 @@ export default {
     "no-template-curly-in-string": "warn",
 
     // Define things before using them
-    "no-use-before-define": [ "error", { functions: false } ],
+    "no-use-before-define": [ "warn", { functions: false } ],
 
     // Only throw Error objects and not literals (like strings)
     "no-throw-literal": "error",
