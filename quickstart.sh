@@ -1,7 +1,13 @@
 #!/bin/bash
 
-# Source nvm if available
-nvm use 2>/dev/null || echo "nvm not found, proceeding with system Node.js"
+# Source nvm if available (nvm is a shell function, not a binary — it must be sourced first)
+export NVM_DIR="${NVM_DIR:-$HOME/.nvm}"
+if [ -s "$NVM_DIR/nvm.sh" ]; then
+  . "$NVM_DIR/nvm.sh"
+  nvm use 2>/dev/null || echo "No .nvmrc found, using default Node.js"
+else
+  echo "nvm not found, proceeding with system Node.js"
+fi
 
 # Install dependencies
 npm install -D airier husky
